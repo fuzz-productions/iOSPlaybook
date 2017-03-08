@@ -103,24 +103,25 @@ Plato provides:
 
 <details><summary>**Recommended Project Checklist**</summary><p>
 
-Create a new project
-Recommendation: Use Plato https://gitlab.fuzzhq.com/ios-labs/plato
-Include: 
-.gitignore
-Swift Lint
-Directory Structure
-Provisioning
-Push to GitLab Repository
-Create or Update ReadMe 
-Include: 
-Installation Instructions
-Links to Technical Documentation
-Links to major project conventions
-Links to Pods 
-Create Technical Documentation (via confluence or Google Docs)
-Include:
-API Information
-Integrate with Fazu
+- [ ] **Create a new project**
+	* Recommendation: Use Plato https://gitlab.fuzzhq.com/ios-labs/plato
+	- [ ] .gitignore
+	- [ ] Swift Lint
+	- [ ] Directory Structure
+	- [ ] Provisioning
+
+- [ ] **Push to GitLab Repository**
+
+- [ ] **Create or Update ReadMe**
+	- [ ] Installation Instructions
+	- [ ] Links to Technical Documentation
+	- [ ] Links to major project conventions
+	- [ ] Links to Pods 
+
+- [ ] **Create Technical Documentation (via confluence or Google Docs)**
+	- [ ] API Information
+
+- [ ] **Integrate with Fazu**
 Fazu https://gitlab.fuzzhq.com/ios-tools/fazu-ci 
 
 </p></details>
