@@ -1,13 +1,13 @@
 ## Project Setup
 
-Values 
-    Projects should be set up in a way that allows team members to: 
-Understand major conventions of the project
-Navigate through the project quickly and logically
-Locate resources pertaining to a project quickly
-Build and deploy easily
+###Values 
+Projects should be set up in a way that allows team members to: 
+- Understand major conventions of the project
+- Navigate through the project quickly and logically
+- Locate resources pertaining to a project quickly
+- Build and deploy easily
 
-Rule of Thumb
+###Rule of Thumb
 	
 As soon as a project is created that is intended to be the repository for a client project, that project should be setup correctly. 
 	
@@ -73,29 +73,29 @@ Depending on the project, Technical Documentation exists in Google Docs or in Co
 
 ###Values
 - Project Structure should have: 
--.gitignore
--A reasonable, organized Directory Structure
--Continuous Integration
--Swift Linting (or something of the like)
--Documentation via Jazzy
+- .gitignore
+- A reasonable, organized Directory Structure
+- Continuous Integration
+- Swift Linting (or something of the like)
+- Documentation via Jazzy
 
 ###Required Module
 Fazu https://gitlab.fuzzhq.com/ios-tools/fazu-ci 
 
 Fazu provides: 
--Continuous Integration
--Building and deployment from console
--Documentation via Jazzy
--Provisioning
+- Continuous Integration
+- Building and deployment from console
+- Documentation via Jazzy
+- Provisioning
 
 ###Recommended Module
 
 Plato https://gitlab.fuzzhq.com/ios-labs/plato
 
 Plato provides: 
--.gitignore 
--Directory Structure
--Swift Lint
+- .gitignore 
+- Directory Structure
+- Swift Lint
 
 </p></details>
 
