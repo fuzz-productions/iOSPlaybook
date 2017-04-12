@@ -1,13 +1,13 @@
 ## Project Setup
 
-###Values 
+### Values 
 Projects should be set up in a way that allows team members to: 
 - Understand major conventions of the project
 - Navigate through the project quickly and logically
 - Locate resources pertaining to a project quickly
 - Build and deploy easily
 
-###Rule of Thumb
+### Rule of Thumb
 	
 As soon as a project is created that is intended to be the repository for a client project, that project should be setup correctly. 
 	
@@ -17,11 +17,11 @@ Moving quickly at the beginning of projects is important, but speed should not c
 
 <details><summary>**ReadMe**</summary><p>
 
-###Location: 
+### Location: 
 
 ReadMe’s exist in a project’s repository
 
-###Values
+### Values
 
 * A ReadMe: 
 - Should be short. Long ReadMe’s are not read. 
@@ -46,10 +46,10 @@ ReadMe’s exist in a project’s repository
 <details><summary>**Technical Documentation**</summary><p>
 
 
-###Location
+### Location
 Depending on the project, Technical Documentation exists in Google Docs or in Confluence. 
 
-###Values
+### Values
 
 - Technical Documentation: 
 - Should be project specific 
@@ -71,7 +71,7 @@ Depending on the project, Technical Documentation exists in Google Docs or in Co
 <details><summary>**Project Structure**</summary><p>
 
 
-###Values
+### Values
 - Project Structure should have: 
 - .gitignore
 - A reasonable, organized Directory Structure
@@ -79,7 +79,7 @@ Depending on the project, Technical Documentation exists in Google Docs or in Co
 - Swift Linting (or something of the like)
 - Documentation via Jazzy
 
-###Required Module
+### Required Module
 Fazu https://gitlab.fuzzhq.com/ios-tools/fazu-ci 
 
 Fazu provides: 
@@ -88,7 +88,7 @@ Fazu provides:
 - Documentation via Jazzy
 - Provisioning
 
-###Recommended Module
+### Recommended Module
 
 Plato https://gitlab.fuzzhq.com/ios-labs/plato
 
