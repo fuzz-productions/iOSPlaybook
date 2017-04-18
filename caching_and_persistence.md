@@ -5,7 +5,7 @@
 * Caching should only be done when absolutely necessary. 
 * There should always be a strategy for syncing with the server
 * Cleanup of caches should be handled completely
-* Caching is complex, and therefore should be implemented and managed thoughtfully.
+* Caching is complex, and it should be implemented and managed thoughtfully.
 
 Caching is complex and generally context specific. For this reason, we have created a checklist of questions (and general guidelines) that run through common considerations that one should take into account when implementing a caching layer in an application. 
 
@@ -29,3 +29,4 @@ Caching is complex and generally context specific. For this reason, we have crea
        > This is one of the most difficult issues with caching. Syncing local and remote datasets should be handled completely, and there should be a thoughtfully constructed flow for handling failures with syncing. 
 3. Server
     * How does the server handle updating information?
+       > Staying up to date (if that is something your applications' data must do) can be done in different ways. This should be considered and expressed within the application caching layer. 
