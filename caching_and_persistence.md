@@ -15,7 +15,7 @@ Caching is complex and generally context specific. For this reason, we have crea
     - [ ] Large vs. Small
        > The larger the data coming down from the server, the longer requests will take. Generally when optimizing for speed, it make sense to cache large data to ensure that it is available quickly. 
     - [ ] Static vs. Dynamic
-       > The more dynamic a piece of datum is the more likley it is that you need a more robust database to cache it. 
+       > The more dynamic a piece of datum is the more likley it is that you need a more robust database to cache it. Images and videos are an examples of data that are static (and generally pretty large). They probably don't need a database, but it generally makes sense to hold onto them in a lightweight caching layer if they are used repeatedly. 
     - [ ] How does it releate to other data?
        > There should be considerations as to whether entire objects need to be cached. Sometimes just holding onto an id makes sense. 
 2. Application
