@@ -13,10 +13,10 @@ The distinction between caching and persistence is important, because quite ofte
 
 Data can come in many types and forms:
 
-> Large format data.  (I.e., images, video, audio)
-> Simple, mostly static data.  Sometimes data is mostly static, i.e., it only gets updated once in a blue moon, but it is important that the device can fetch this data from a server rather than rely upon hard coded values.  
-> Dynamic data - Data that is constantly changing state on both device and server.  Often the most complicated data to work with.
-> Relational data - Data that consists of objects with specific relationships (1 to 1, 1 to Many) with other objects in the data.
+- Large format data.  (I.e., images, video, audio)
+- Simple, mostly static data.  Sometimes data is mostly static, i.e., it only gets updated once in a blue moon, but it is important that the device can fetch this data from a server rather than rely upon hard coded values.  
+- Dynamic data - Data that is constantly changing state on both device and server.  Often the most complicated data to work with.
+- Relational data - Data that consists of objects with specific relationships (1 to 1, 1 to Many) with other objects in the data.
 
 Whether you want to cache or persist the data is highly dependent upon exactly what kind of data you are receiving.  The following sections will hopefully provide a general guideline on how to make your decision. 
 

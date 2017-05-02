@@ -54,7 +54,7 @@ Depending on the project, Technical Documentation exists in Google Docs or in Co
 
 ---
 ### Examples
-	https://gitlab.fuzzhq.com/ios-project/m360/blob/dev/README.md
+	[m360](https://gitlab.fuzzhq.com/ios-project/m360/blob/dev/README.md)
 
 ---
 
@@ -120,7 +120,7 @@ Fazu https://gitlab.fuzzhq.com/ios-tools/fazu-ci
 
 - [ ] **Implement a build process for development/production**
 	- See m360 for details.
-	TODO: Add more details on m360 after Noah's presentation.
+	- TODO: Add more details on m360 after Noah's presentation.
 
 </p></details>
 
