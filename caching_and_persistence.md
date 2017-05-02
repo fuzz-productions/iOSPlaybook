@@ -60,6 +60,3 @@ Caching and persistance are complex and generally context specific. For this rea
   - [Realm](https://realm.io/)
   - [Core Data Dandy](https://github.com/fuzz-productions/CoreDataDandy)
 
-2.  File management systems (Writing JSON to file):
-  - [eCall-SDK](https://gitlab.fuzzhq.com/ios-project/eCall-SDK/blob/dev/eCall-SDK/eCall-SDK/Utilities/DataStore.swift)
-
