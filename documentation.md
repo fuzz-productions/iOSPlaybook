@@ -27,9 +27,11 @@ There are two types of documentation, which we describe as 'What' and 'Why'.
     - *Complexity* - steps for convoluted operations should be explained.
     
 - *Why*
+  
+  Some code only makes sense in the specific context in which it is implemented.  For instance, delegate patterns often fall victim to a lack of contextual knowledge necessary to make an informed decision about the code and should be documented.
+
     - *Bugs* - bugs fixes are generally counterintuitive when read without context. Commented bug fixes are organizational knowledge. 
-    - *Workarounds* - counterintuitive workarounds to difficult problems must be documented. 
-    - *Context* - some code only makes sense in the specific context in which it is implemented.  For instance, delegate patterns often fall victim to a lack of contextual knowledge necessary to make an informed decision about the code and should be documented.
+    - *Workarounds* - counterintuitive workarounds to difficult problems must be documented.
     
 - *What* and *Why*
     - *Types and Functions* - some types and functions are very intuitive, and good naming helps. Even so, functionality and reason to exist should be documented.  
@@ -41,7 +43,8 @@ There are two types of documentation, which we describe as 'What' and 'Why'.
  <details><summary>Rule of Thumb</summary><p>
 
 - Your code should be documented. You shouldn't trust future you's ability to understand what current you is thinking.
-- Documentation is more than just providing Apple-like documentation on functions.  It is providing clear, contextual knowledge about code when and where necessary to aid other developers' understanding.  
+- Documentation is more than just providing Apple-like documentation on functions.  It is providing clear, contextual knowledge about code when and to aid other developers' understanding. 
+
 - A simple library that is often used to centralize documentation in a remote repo is [Jazzy](https://github.com/realm/jazzy)
 
 </p></details>
