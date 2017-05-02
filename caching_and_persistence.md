@@ -7,6 +7,8 @@
 * Cleanup of caches should be handled completely
 * Caching is complex, and it should be implemented and managed thoughtfully.
 
+<details><summary>Caching Checklist</summary><p>
+
 Caching is complex and generally context specific. For this reason, we have created a checklist of questions (and general guidelines) that run through common considerations that one should take into account when implementing a caching layer in an application. 
 
 ### Caching Checklist
@@ -30,3 +32,5 @@ Caching is complex and generally context specific. For this reason, we have crea
 3. Server
     - [ ] How does the server handle updating information?
        > Staying up to date (if that is something your applications' data must do) can be done in different ways. This should be considered and expressed within the application caching layer. 
+       
+</p><details>
