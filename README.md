@@ -5,3 +5,4 @@
 2. [Documentation](https://github.com/fuzz-productions/iOSPlaybook/blob/master/documentation.md)
 3. Networking
       * [Caching and Persistence](https://github.com/fuzz-productions/iOSPlaybook/blob/master/caching_and_persistence.md)
+      * [Error Handling](https://github.com/fuzz-productions/iOSPlaybook/blob/master/error_handling.md)
