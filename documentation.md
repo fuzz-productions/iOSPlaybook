@@ -41,7 +41,7 @@ There are two types of documentation, which we describe as 'What' and 'Why'.
  <details><summary>Rule of Thumb</summary><p>
 
 - Your code should be documented. You shouldn't trust future you's ability to understand what current you is thinking.
-- Documentation is more than just providing Apple-like documentation on functions.  It is providing clear, contextual knowledge about code when and where necessary to aid other developers understanding.  
+- Documentation is more than just providing Apple-like documentation on functions.  It is providing clear, contextual knowledge about code when and where necessary to aid other developers' understanding.  
 - A simple library that is often used to centralize documentation in a remote repo is [Jazzy](https://github.com/realm/jazzy)
 
 </p></details>
