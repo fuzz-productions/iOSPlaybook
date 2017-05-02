@@ -30,4 +30,4 @@ Error handling is highly contextual, and therefore no set protocol for error han
 
 - Request Structure
   
-  - *State Tracking* - Using enums to track state for requests can allow for views to adapt for errors from a more central location. More on this strucure [here](http://khanlou.com/2017/03/that-one-optional-property/)
+  - *State Tracking* - Using enums to track state for requests can allow for views to adapt for errors from a more central location. More on this strucure [here.](http://khanlou.com/2017/03/that-one-optional-property/)
