@@ -15,7 +15,7 @@ Moving quickly at the beginning of projects is important, but speed should not c
 
 ---
 
-<details><summary>**ReadMe**</summary><p>
+<details><summary>ReadMe</summary><p>
 
 ### Location: 
 
@@ -33,17 +33,11 @@ ReadMe’s exist in a project’s repository
 - Links to pods used within the project
 - Update the ReadMe with new changes
 
----
-### Examples
-	TODO: Examples of Super Good ReadMe’s:
-
----
-
 </p></details>
 
 ---
 
-<details><summary>**Technical Documentation**</summary><p>
+<details><summary>Technical Documentation</summary><p>
 
 
 ### Location
@@ -68,7 +62,7 @@ Depending on the project, Technical Documentation exists in Google Docs or in Co
 
 ---
 
-<details><summary>**Project Structure**</summary><p>
+<details><summary>Project Structure</summary><p>
 
 
 ### Values
@@ -101,7 +95,7 @@ Plato provides:
 
 ---
 
-<details><summary>**Recommended Project Checklist**</summary><p>
+<details><summary>Recommended Project Checklist</summary><p>
 
 - [ ] **Create a new project**
 	* Recommendation: Use Plato https://gitlab.fuzzhq.com/ios-labs/plato
