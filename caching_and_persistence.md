@@ -8,6 +8,8 @@
 * Persistence is complex, and it should be implemented and managed thoughtfully.
 * Persistence should only be done when absolutely necessary. 
 
+---
+
 <details><summary>Context</summary><p>
 
 ### Definition
