@@ -11,7 +11,7 @@ You may still need [persuasion.](http://ericasadun.com/2016/11/03/swift-holy-war
 
 <details><summary>Context</summary><p>
 
-There are two types of documentation, which we describe as 'What' and 'Why'. 
+There are two documentation types, which we describe as 'What' and 'Why'. 
 
 - *What*: explains what a piece of code does
 

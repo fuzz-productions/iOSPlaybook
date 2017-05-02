@@ -1,6 +1,14 @@
 # Error Handling
 
-### Context
+### Values
+
+- All errors should be funneled through one Error structure within the application.
+- When errors are handled, they should be handled completely and in only one location.
+- Errors should be handled in the same way consistently throughout an application.
+
+---
+
+<details><summary>Context</summary><p>
 
 There are three overarching types of errors: 
 
@@ -12,13 +20,11 @@ Several operations are rife with opportunities for errors. For example, a standa
 
 ![Standard URLRequest Errors Image](https://github.com/fuzz-productions/iOSPlaybook/blob/master/opportunities_for_error.png)
 
-### Values
+</p></details>
 
-- All errors should be funneled through one Error structure within the application.
-- When errors are handled, they should be handled completely and in only one location.
-- Errors should be handled in the same way consistently throughout an application.
+---
 
-### Recommendations
+<details><summary>Recommendations</summary><p>
 
 Error handling is highly contextual, and therefore there is currently no set protocol for error handling across projects. However, here are some thoughts on the matter: 
 
@@ -32,3 +38,7 @@ Error handling is highly contextual, and therefore there is currently no set pro
 - Request Structure
   
   - *State Tracking* - Using enums to track state for requests can allow for views to adapt for errors from a more central location. More on this strucure [here.](http://khanlou.com/2017/03/that-one-optional-property/)
+
+</p></details>
+
+---

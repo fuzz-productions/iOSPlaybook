@@ -1,6 +1,15 @@
 
 # Caching and Persistence
 
+### Values 
+
+* There should always be a strategy for syncing with the server, especially with highly dynamic databases
+* Cleanup of caches should be handled completely
+* Persistence is complex, and it should be implemented and managed thoughtfully.
+* Persistence should only be done when absolutely necessary. 
+
+<details><summary>Context</summary><p>
+
 ### Definition
 
 Caching is the temporary storage of data in-memory in order to enhance the user experience by removing or bypassing unnecessary service requests and instead fetching data from the local temporary storage.  This cache may or may not live through multiple app sessions.
@@ -20,13 +29,11 @@ Data can come in many types and forms:
 
 Whether you want to cache or persist the data is highly dependent upon exactly what kind of data you are receiving.  The following sections will hopefully provide a general guideline on how to make your decision. 
 
-### Values 
+</p></details>
 
-* There should always be a strategy for syncing with the server, especially with highly dynamic databases
-* Cleanup of caches should be handled completely
-* Persistence is complex, and it should be implemented and managed thoughtfully.
-* Persistence should only be done when absolutely necessary. 
+---
 
+<details><summary>Caching Checklist</summary><p>
 
 Caching and persistance are complex and generally context specific. For this reason, we have created a checklist of questions (and general guidelines) that run through common considerations that one should take into account when implementing a cachingor persistence layer in an application. 
 
@@ -53,7 +60,11 @@ Caching and persistance are complex and generally context specific. For this rea
        > Staying up to date (if that is something your applications' data must do) can be done in different ways. This should be considered and expressed within the application caching layer.  
        > If available, consult with the developer in charge of managing your API to see if they have any strategies in place (or can be built) to inform the clients when the remote database has been updated (or not!).
 
-### Resources
+</p></details>
+
+---
+
+<details><summary>Resources</summary><p>
 
 1.  Database layers:
   - [Core Data](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/index.html?utm_source=iosstash.io)
@@ -63,3 +74,6 @@ Caching and persistance are complex and generally context specific. For this rea
 2.  File management systems (Writing JSON to file):
   - [eCall-SDK](https://gitlab.fuzzhq.com/ios-project/eCall-SDK/blob/dev/eCall-SDK/eCall-SDK/Utilities/DataStore.swift)
 
+</p></details>
+
+---
