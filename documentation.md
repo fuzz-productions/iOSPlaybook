@@ -3,7 +3,7 @@
 
 ### Values
 
-Documentation is imperative. Given that we are an agency, our code is consumed by many developers inside and outside of Fuzz. Documentation should be updated and written in a manner that considers what a new programmer on the project would consider useful. 
+Documentation is imperative. Given that we are an agency, our code is consumed by many developers inside and outside of Fuzz. Documentation should be updated and written in a manner that considers what a new programmer on the project would deem useful. 
 
 You may still need [persuasion.](http://ericasadun.com/2016/11/03/swift-holy-war-comments-are-not-an-anti-pattern/)
 
