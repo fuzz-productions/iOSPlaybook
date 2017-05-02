@@ -26,7 +26,7 @@ Several operations are rife with opportunities for errors. For example, a standa
 
 <details><summary>Recommendations</summary><p>
 
-Error handling is highly contextual, and therefore no set protocol for error handling across projects is currently set. However, here are some thoughts on the matter. 
+Error handling is highly contextual, and therefore setting a protocol for error handling across projects is not ideal. However, here are some suggestions. 
 
 - Error Structure
 
