@@ -5,8 +5,8 @@
 There are three overarching types of errors: 
 
 - *silent* - The error is minor or expected and does not significantly effect the user experience. 
-- *surfaceable* - The error significantly effects the user experience and therefore should be surfaced to the user.
-- *critical* - The error puts the application is in a dangerous state and should crash. 
+- *surfaceable* - The error significantly affects the user experience and therefore should be surfaced to the user.
+- *critical* - The error puts the application is in a dangerous state and possibly requires forcing the app the crash. 
 
 Several operations are rife with opportunities for errors. For example, a standard URL request has multiple failure points. 
 
@@ -20,7 +20,7 @@ Several operations are rife with opportunities for errors. For example, a standa
 
 ### Recommendations
 
-Error handling is highly contextual, and therefore no set protocol for error handling across projects is currently set. However, here are some thoughts on the matter. 
+Error handling is highly contextual, and therefore there is currently no set protocol for error handling across projects. However, here are some thoughts on the matter: 
 
 - Error Structure
 
