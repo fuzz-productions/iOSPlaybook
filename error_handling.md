@@ -9,6 +9,7 @@ There are three overarching types of errors:
 - *critical* - The error puts the application is in a dangerous state and should crash. 
 
 Several operations are rife with opportunities for errors. For example, a standard URL request has multiple failure points. 
+
 ![Standard URLRequest Errors Image](https://github.com/fuzz-productions/iOSPlaybook/blob/master/opportunities_for_error.png)
 
 ### Values
