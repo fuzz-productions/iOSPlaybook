@@ -54,7 +54,7 @@ Depending on the project, Technical Documentation exists in Google Docs or in Co
 
 ---
 ### Examples
-	TODO: Examples of super good tech docs
+[m360](https://gitlab.fuzzhq.com/ios-project/m360/blob/dev/README.md)
 
 ---
 
@@ -117,6 +117,10 @@ Plato provides:
 
 - [ ] **Integrate with Fazu**
 Fazu https://gitlab.fuzzhq.com/ios-tools/fazu-ci 
+
+- [ ] **Implement a build process for development/production**
+	- See m360 for details.
+	- TODO: Add more details on m360 after Noah's presentation.
 
 </p></details>
 
