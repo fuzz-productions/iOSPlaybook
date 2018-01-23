@@ -58,5 +58,5 @@
           .disposed(by: disposeBag)
     ```
     
-    ### WithLatestFrom
+    ## WithLatestFrom
       This version of withLatestFrom passes on only the second Obseverable if it is available, this is especcaily helpful with the driving event has not data other than it's occurance
