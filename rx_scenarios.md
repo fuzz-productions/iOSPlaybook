@@ -18,7 +18,7 @@
           .disposed(by: disposeBag)
     ```
   
-  ## Map
+  ### Map
   
  - I have two Observables, I need to know the value of both to compute the proper response
    - as a user types in thier zipcode I want to validate their input informed by the country they live in
@@ -38,5 +38,24 @@
     ```
     This version of withLatestFrom uses a result selector that can fire each time `.text` is changed when country has had at least on value, the result selector acts like a mpa with 2 inputs
     
-    ## WithLatestFrom
+    ### WithLatestFrom
+    
+      - when a button is tapped I want to read the value of the second observable and act on it
+   ``` 
+        button.rx.tap
+          .withLatestFrom(country) 
+          .subscribe(
+             onNext: { country in
+                switch country {
+                case .usa:
+                    print "made great 2017"
+                default:
+                    print "made great 1066"
+               }
+          )
+          .disposed(by: disposeBag)
+    ```
+    This version of withLatestFrom passes on only the second Obseverable if it is available, this is especcaily helpful with the driving event has not data other than it's occurance
+    
+    ### WithLatestFrom
     
