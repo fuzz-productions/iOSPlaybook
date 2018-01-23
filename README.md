@@ -7,5 +7,5 @@
       * [Caching and Persistence](https://github.com/fuzz-productions/iOSPlaybook/blob/master/caching_and_persistence.md)
       * [Error Handling](https://github.com/fuzz-productions/iOSPlaybook/blob/master/error_handling.md)
 4. Rx
-     * [Operators](https://github.com/fuzz-productions/iOSPlaybook/blob/master/rx_operators.md)
+     * [Operators](https://github.com/fuzz-productions/iOSPlaybook/blob/master/rx_scenarios.md)
      * [Sequence Types](https://github.com/fuzz-productions/iOSPlaybook/blob/master/rx_sequence_types.md)
