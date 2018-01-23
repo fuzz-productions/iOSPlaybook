@@ -4,12 +4,12 @@
 --Nick
 - I want to convert the Element type in an Observable 
   - I have a TextField's text bound to Observable<String> but I want an Observable<Bool> to tell me if the input is valid
-    ``` 
+   ``` 
         textfield.rx.text
           .map { $0.count >= 5 }
           .bind(to: button.rx.enabled)
           .disposed(by: disposeBag)
-    ```
+   ```
    - I have a model but only want the `.firstName` value to put into a UILabel
     ``` 
         Observable<Profile>.just(...)
