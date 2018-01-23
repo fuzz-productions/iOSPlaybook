@@ -21,6 +21,10 @@
   ## Map
       map is a very common function and very help for pulling data out of models for specific usage
   
+  
+  
+  
+  
  - I have two Observables, I need to know the value of both to compute the proper response
    - as a user types in thier zipcode I want to validate their input informed by the country they live in
    ``` 
@@ -40,6 +44,11 @@
 
     ## WithLatestFrom
         This version of withLatestFrom uses a result selector that can fire each time `.text` is changed when country has had at least on value, the result selector acts like a mpa with 2 inputs
+    
+    
+    
+    
+    
     
     
       - when a button is tapped I want to read the value of the second observable and act on it
