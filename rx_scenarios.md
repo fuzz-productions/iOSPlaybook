@@ -21,7 +21,7 @@
   ## Map
       map is a very common function and very help for pulling data out of models for specific usage
   
-  
+  <br/>  <br/>
   
   
   
@@ -47,7 +47,7 @@
     
     
     
-    
+   <br/>  <br/>   
     
     
     
