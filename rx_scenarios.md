@@ -11,12 +11,13 @@
           .disposed(by: disposeBag)
     ```
    - I have a model but only want the `.firstName` value to put into a UILabel
-         ``` 
+    ``` 
         Observable<Profile>.just(...)
           .map { $0.firstName }
           .bind(to: firstNameLabel.rx.text)
           .disposed(by: disposeBag)
     ```
+  
   ## Map
   
  - I have two Observables, I need to know the value of both to compute the proper response
